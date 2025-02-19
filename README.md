@@ -1,1 +1,1 @@
-# rabbit.library.books.service
+# rabbit.library.authors.service
