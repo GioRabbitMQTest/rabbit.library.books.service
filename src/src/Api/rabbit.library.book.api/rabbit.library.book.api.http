@@ -1,0 +1,6 @@
+@rabbit.library.book.api_HostAddress = http://localhost:5008
+
+GET {{rabbit.library.book.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

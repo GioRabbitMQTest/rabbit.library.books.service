@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.books.application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbit.library.books.infraestructure", "src\Infraestructure\rabbit.library.books.infraestructure\rabbit.library.books.infraestructure.csproj", "{047D92EF-08A9-4AA3-9FFA-82DD6935F194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbit.library.book.api", "src\Api\rabbit.library.book.api\rabbit.library.book.api.csproj", "{83228240-BBEC-4645-9F57-B2B7CA722DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{047D92EF-08A9-4AA3-9FFA-82DD6935F194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{047D92EF-08A9-4AA3-9FFA-82DD6935F194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{047D92EF-08A9-4AA3-9FFA-82DD6935F194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83228240-BBEC-4645-9F57-B2B7CA722DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83228240-BBEC-4645-9F57-B2B7CA722DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83228240-BBEC-4645-9F57-B2B7CA722DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83228240-BBEC-4645-9F57-B2B7CA722DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{19960DF4-49B6-45FA-BC93-FF761DCB9877} = {746849E2-63C0-4DBA-83B4-162A3102DDC7}
 		{74EAD5CA-7F91-493C-8D2A-01292C27459D} = {746849E2-63C0-4DBA-83B4-162A3102DDC7}
 		{047D92EF-08A9-4AA3-9FFA-82DD6935F194} = {B929EFDB-5DD2-4824-A1B8-6F5513AC1BBB}
+		{83228240-BBEC-4645-9F57-B2B7CA722DE6} = {6B8D1497-348C-4976-916F-03D18BA22AF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12C41BCF-92D3-48F3-99F7-6F457451C7A9}
