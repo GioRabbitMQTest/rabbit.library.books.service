@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="rabbit.framework" Version="1.0.0" />
+    <PackageReference Include="rabbit.framework.messaging" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>
