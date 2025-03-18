@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\rabbit.library.books.domain\rabbit.library.books.domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Authors\EventHandlers\Domain\" />
+    <Folder Include="Features\Books\" />
   </ItemGroup>
 
 </Project>
